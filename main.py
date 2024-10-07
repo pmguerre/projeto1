@@ -1,5 +1,4 @@
-from get_float import *
-from get_int import *
+from utils import *
 
 if __name__ == '__main__':
     x = get_float("x: ")
