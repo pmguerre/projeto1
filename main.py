@@ -1,9 +1,10 @@
 from utils import *
 
 if __name__ == '__main__':
-    x = get_float("x: ")
-    y = get_int("y: ")
+    nome = get_string("Aluno: ")
+    nota1 = get_float("Nota1: ")
+    nota2 = get_float("Nota2: ")
 
-    z = x * y
+    media = (nota1 + nota2) / 2
 
-    print(z)
+    print(f"{nome} \t {media:.2f}")
