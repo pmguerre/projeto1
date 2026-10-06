@@ -1,0 +1,10 @@
+# todos os ficheiros que devem ser ignorados pelo git
+
+# ambientes virtuais
+.env/
+.venv/
+
+__pycache__/
+
+*.bak
+*~
